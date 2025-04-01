@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clipboard-cleaner"
+version = "0.1.0"
+description = "A clipboard cleaner that removes unwanted line breaks and keeps paragraph breaks"
+authors = ["James Kavanagh-Cranston <j.kavanaghcranston@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyperclip = "*"
+tk = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
